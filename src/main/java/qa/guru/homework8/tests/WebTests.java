@@ -1,4 +1,4 @@
-package qa.guru.homework8;
+package qa.guru.homework8.tests;
 
 import com.codeborne.selenide.CollectionCondition;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -6,6 +6,8 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.EnumSource;
 import org.junit.jupiter.params.provider.MethodSource;
+import qa.guru.homework8.data.Lang;
+import qa.guru.homework8.data.MenuItem;
 
 import java.util.List;
 import java.util.stream.Stream;
